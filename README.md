@@ -17,7 +17,8 @@ ps:you can download apk by app crawler [@https://github.com/mssun/android-apps-c
     python aaptOutput.py
     ```
 After running you can see many txts in the folder `apkinfo`
-* start auto test
+* start autonomic test
+
     ```
     python startMonkey.py
     ```
