@@ -1,4 +1,5 @@
-# -*- coding:utf-8 -*-
+#!/usr/bin/env python
+# coding=utf-8
 '''
 该脚本将apk解析信息保存到当前路径的apkinfo文件夹下
 '''
