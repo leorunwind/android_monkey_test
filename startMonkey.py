@@ -60,10 +60,11 @@ def uninstallApk(pkgName):
 
 
 def runMonkey(pkgName):
+	global eventNum
 	seed = int(time.time())
 	try:
 		#执行monkey命令
-		cmd = 'adb shell monkey -p %s -s %d -vvv 20'%(pkgName,seed)
+		cmd = 'adb shell monkey -p %s -s %d -vvv %d'%(pkgName,seed,eventNum)
 		os.system(cmd)
 	except Exception as e:
 		return e
