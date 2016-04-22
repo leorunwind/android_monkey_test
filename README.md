@@ -9,15 +9,16 @@ Android sdk
 
 Downloaded apks
 
-ps:you can download apk by app crawler [@https://github.com/mssun/android-apps-crawler](https://github.com/mssun/android-apps-crawler))
+ps:you can download apk by app crawler [@https://github.com/mssun/android-apps-crawler](https://github.com/mssun/android-apps-crawler)
 ## Usage
-* use `aapt` resolve apk and save apkInfo into txt.
+* Use `aapt` resolve apk and save apkInfo into txt:
 
     ```
     python aaptOutput.py
     ```
 After running you can see many txts in the folder `apkinfo`
-* start autonomic test
+* Open an `Android Emulator`(recommended), or connect an Android device to your computer
+* Start autonomic test:
 
     ```
     python startMonkey.py
@@ -25,4 +26,4 @@ After running you can see many txts in the folder `apkinfo`
 After running you can check new `screenshot` folder
 
 ## TODO
-Combined with `MonkeyRunner` or other test tools, implement more powerful test.
+Combine with `MonkeyRunner` or other test tools, to implement more powerful test.
