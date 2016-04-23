@@ -13,6 +13,16 @@ import os
 import time
 import codecs
 from threading import Thread
+from sys import argv
+
+try:
+	#在命令行参数输入下载的apk保存的绝对路径
+	apkDir = argv[1]
+	if(apkDir[-1]) != '/'):
+		apkDir += '/'
+except:
+	exit('Please add apk absolute path')
+#apkDir = 'D://javaDir/android/appAutoTest/downloadApk/'
 
 pngNum = 30#每个app截屏的数量
 eventNum = 20#每次截屏之前进行的伪随机事件数
