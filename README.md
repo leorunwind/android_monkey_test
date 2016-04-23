@@ -11,17 +11,18 @@ Downloaded apks
 
 ps:you can download apk by app crawler [@https://github.com/mssun/android-apps-crawler](https://github.com/mssun/android-apps-crawler)
 ## Usage
-* Use `aapt` resolve apk and save apkInfo into txt:
+* Use `aapt` to resolve apk and save apkInfo into txt(Remember to add your apk absolute path):
 
     ```
-    python aaptOutput.py
+    python aaptOutput.py [apkDir]
     ```
+For example, on windows. The command is like `python aaptOutput.py D://android/downloaded_apk/` 
 After running you can see many txts in the folder `apkinfo`
 * Open an `Android Emulator`(recommended), or connect an Android device to your computer
-* Start autonomic test:
+* Start autonomic test(Remember to add your apk absolute path):
 
     ```
-    python startMonkey.py
+    python startMonkey.py [apkDir]
     ```
 After running you can check new `screenshot` folder
 
