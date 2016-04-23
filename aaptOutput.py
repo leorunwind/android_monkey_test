@@ -5,8 +5,16 @@
 '''
 import os
 from threading import Thread
+from sys import argv
 
-apkDir = 'D://javaDir/android/appAutoTest/downloadApk/'#下载的apk保存的路径,改成你自己的路径
+try:
+	#在命令行参数输入下载的apk保存的绝对路径
+	apkDir = argv[1]
+	if(apkDir[-1]) != '/'):
+		apkDir += '/'
+except:
+	exit('Please add apk absolute path')
+#apkDir = 'D://javaDir/android/appAutoTest/downloadApk/'
 
 def apkList(apkDir):
 	#查找指定目录下的所有apk文件，返回apk名的列表
