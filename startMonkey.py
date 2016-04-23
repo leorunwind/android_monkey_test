@@ -22,11 +22,10 @@ try:
 		apkDir += '/'
 except:
 	exit('Please add apk absolute path')
+	
 #apkDir = 'D://javaDir/android/appAutoTest/downloadApk/'
-
 pngNum = 30#每个app截屏的数量
 eventNum = 20#每次截屏之前进行的伪随机事件数
-apkDir = 'D://javaDir/android/appAutoTest/downloadApk/'#下载的apk保存的路径,改成你自己的路径
 apkInfoDir = 'apkinfo/'#当前路径的apkinfo文件夹下，存储着apk解析信息
 
 def apkList(apkDir):
