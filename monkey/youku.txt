@@ -1,0 +1,123 @@
+:Monkey: seed=1462385682674 count=500
+:AllowPackage: com.youku.phone
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: 25.0%
+//   6: 15.0%
+//   7: 2.0%
+//   8: 2.0%
+//   9: 1.0%
+//   10: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.youku.phone/.ActivityWelcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.youku.phone/.ActivityWelcome } in package com.youku.phone
+:Sending Touch (ACTION_DOWN): 0:(77.0,1888.0)
+:Sending Touch (ACTION_UP): 0:(135.22926,1891.213)
+:Sending Touch (ACTION_DOWN): 0:(753.0,1750.0)
+:Sending Touch (ACTION_UP): 0:(751.8485,1748.6384)
+:Sending Touch (ACTION_DOWN): 0:(943.0,909.0)
+:Sending Touch (ACTION_UP): 0:(938.1588,907.7951)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(737.0,614.0)
+:Sending Touch (ACTION_UP): 0:(740.25977,604.76196)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.youku.phone/.ActivityWelcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.youku.phone/.ActivityWelcome } in package com.youku.phone
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(63.0,621.0)
+:Sending Touch (ACTION_UP): 0:(69.185486,619.16205)
+:Sending Touch (ACTION_DOWN): 0:(199.0,1662.0)
+:Sending Touch (ACTION_UP): 0:(214.88258,1676.0132)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    //[calendar_time:2016-04-22 09:31:09.665  system_uptime:2844436]
+    // Sending event #100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.youku.phone/.ActivityWelcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.youku.phone/.ActivityWelcome } in package com.youku.phone
+:Sending Touch (ACTION_DOWN): 0:(462.0,1445.0)
+:Sending Touch (ACTION_UP): 0:(469.6009,1454.788)
+:Sending Touch (ACTION_DOWN): 0:(954.0,802.0)
+:Sending Touch (ACTION_UP): 0:(987.13293,882.8644)
+:Sending Touch (ACTION_DOWN): 0:(1014.0,1247.0)
+:Sending Touch (ACTION_UP): 0:(981.2331,1271.0917)
+:Sending Touch (ACTION_DOWN): 0:(959.0,1483.0)
+:Sending Touch (ACTION_UP): 0:(964.79626,1481.5519)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1030.0,1644.0)
+:Sending Touch (ACTION_UP): 0:(1033.0042,1643.3387)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.youku.phone/.ActivityWelcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.youku.phone/.ActivityWelcome } in package com.youku.phone
+:Sending Touch (ACTION_DOWN): 0:(864.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(773.58276,1075.7859)
+:Sending Touch (ACTION_DOWN): 0:(995.0,1187.0)
+    //[calendar_time:2016-04-22 09:31:09.887  system_uptime:2844616]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(918.7952,1245.8988)
+:Sending Touch (ACTION_DOWN): 0:(1035.0,561.0)
+:Sending Touch (ACTION_UP): 0:(1031.4233,594.8747)
+:Sending Touch (ACTION_DOWN): 0:(1072.0,1478.0)
+:Sending Touch (ACTION_UP): 0:(1053.5413,1449.7446)
+:Sending Touch (ACTION_DOWN): 0:(548.0,507.0)
+:Sending Touch (ACTION_UP): 0:(548.7233,500.75452)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(32.0,184.0)
+:Sending Touch (ACTION_UP): 0:(41.56015,180.30832)
+:Sending Touch (ACTION_DOWN): 0:(839.0,1697.0)
+:Sending Touch (ACTION_UP): 0:(823.79333,1709.8427)
+:Sending Touch (ACTION_DOWN): 0:(255.0,258.0)
+:Sending Touch (ACTION_UP): 0:(255.51503,265.62027)
+:Sending Touch (ACTION_DOWN): 0:(52.0,1161.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1129.5425)
+:Sending Touch (ACTION_DOWN): 0:(316.0,563.0)
+:Sending Touch (ACTION_UP): 0:(315.6362,582.32684)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+    //[calendar_time:2016-04-22 09:31:10.112  system_uptime:2844842]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(383.0,1790.0)
+:Sending Touch (ACTION_UP): 0:(306.8392,1828.4579)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(607.0,432.0)
+:Sending Touch (ACTION_UP): 0:(560.03815,436.40894)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(709.0,861.0)
+:Sending Touch (ACTION_UP): 0:(667.279,848.0097)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    //[calendar_time:2016-04-22 09:31:10.583  system_uptime:2845313]
+    // Sending event #400
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(860.0,190.0)
+:Sending Touch (ACTION_UP): 0:(846.13165,207.39655)
+:Sending Touch (ACTION_DOWN): 0:(406.0,1447.0)
+:Sending Touch (ACTION_UP): 0:(404.60678,1432.3984)
+:Sending Touch (ACTION_DOWN): 0:(766.0,517.0)
+:Sending Touch (ACTION_UP): 0:(754.41016,523.73773)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.lenovo.launcher/.Launcher } in package com.lenovo.launcher
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(725.0,1633.0)
+:Sending Touch (ACTION_UP): 0:(686.73627,1594.4226)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(58.0,375.0)
+:Sending Touch (ACTION_UP): 0:(65.98731,361.52432)
+:Sending Touch (ACTION_DOWN): 0:(421.0,1180.0)
+Events injected: 500
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=1917ms (0ms mobile, 0ms wifi, 1917ms not connected)
+// Monkey finished
